@@ -1,2 +1,4 @@
 # op-systems-memory-management
-https://docs.google.com/document/d/1KpKBN6e3aoAjvco5VZpg1emY22w4XoomSPVUU-Q1UyE/edit
+Laboratory work, based on Modern Operating Systems simulator from the website below.
+Variant completed is LRU with counter.
+http://www.ontko.com/moss/#memory
