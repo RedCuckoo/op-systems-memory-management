@@ -53,14 +53,6 @@ public class PageFault {
     public static int counter = -1;
 
     public static void replacePage(Vector mem, int virtPageNum, int replacePageNum, ControlPanel controlPanel) {
-//    int count = 0;
-//    int oldestPage = -1;
-//    int oldestTime = 0;
-//    int firstPage = -1;
-//    int map_count = 0;
-//    boolean mapped = false;
-//
-
         int earliestPage = -1;
         int min = -1;
         int count = 0;
@@ -83,8 +75,6 @@ public class PageFault {
             }
             ++count;
         }
-
-        //System.out.println(earliestPage + " " + min +  " " + count);
 
         Page page = (Page) mem.elementAt(earliestPage);
         Page nextpage = (Page) mem.elementAt(replacePageNum);
